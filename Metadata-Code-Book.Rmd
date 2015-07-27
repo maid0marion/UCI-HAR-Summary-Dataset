@@ -30,7 +30,7 @@ The target dataset includes the following fields:
 
 - **Std** : average standard deviation of the respective variable by each subject and activity.
 
-- **Feature_Variable** : **t** pre-fix denotes a **time** (seconds) variable; **f** pre-fix denotes a **frequency** (radians/second) variable.
+- **Feature_Variable** : **t** pre-fix denotes a **time** (normalized and bound to absolute value range of 0:1) variable; **f** pre-fix denotes a **frequency** (normalized and bound to absolute value range of 0:1)  variable.
 
     + tBodyAcc
     + tGravityAcc
